@@ -3,6 +3,7 @@ package com.ascertia.adminservice.controller;
 
 import com.ascertia.adminservice.dto.ApiResponse;
 import com.ascertia.adminservice.dto.UsersDTO;
+import com.ascertia.adminservice.repository.UsersRepository;
 import com.ascertia.adminservice.service.UsersService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
